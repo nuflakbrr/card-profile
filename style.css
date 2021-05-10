@@ -28,7 +28,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background 0.3s;
+    transition: background 1s;
 }
 
 section.dark {
@@ -45,7 +45,7 @@ section .card {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background 0.3s;
+    transition: background 1s;
 }
 
 section.dark .card {

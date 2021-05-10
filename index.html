@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
     <!-- font end -->
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- favicon -->
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
@@ -23,7 +26,7 @@
 <body>
     <!-- section card -->
     <section class="sec">
-        <div class="card">
+        <div class="card" data-aos="fade-up" data-aos-duration="1500">
             <div class="toggle"></div>
             <div class="content">
                 <div class="img-text">
@@ -42,6 +45,14 @@
         </div>
     </section>
     <!-- section card end -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+          once: true
+        });
+    </script>
 
     <script src="app.js"></script>
 </body>
