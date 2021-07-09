@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #666;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dedede;
+  border-radius: 100px;
+}
+
+section {
+  position: relative;
+  background-color: #14768e;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: background 1s;
+  transition: background 1s;
+}
+
+section.dark {
+  background: #24292d;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 380px;
+  background: #ffff;
+  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.025);
+          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.025);
+  border-radius: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: background 1s;
+  transition: background 1s;
+}
+
+.card .img-text h3 {
+  color: white;
+}
+
+.card .img-text h3 span {
+  color: #ccc;
+}
+
+section.dark .card {
+  background: #323840;
+}
+
+section.dark .card .img-text h3 {
+  color: white;
+}
+
+section.dark .card .img-text h3 span {
+  color: #ccc;
+}
+
+section .card .content,
+section .card .img-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.img-box {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.img-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section .card .img-text h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2em;
+  text-align: center;
+  color: #24292d;
+  cursor: default;
+}
+
+section .card .img-text h3 span {
+  font-weight: 400;
+  color: #777;
+  font-size: 12px;
+  cursor: default;
+}
+
+.sci {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+.sci li {
+  list-style: none;
+}
+
+.sci li a {
+  text-decoration: none;
+  font-size: 23px;
+  border-radius: 100%;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #7a7a7c;
+  background-color: #f4f4f4;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.sci li a:hover {
+  background-color: #dedede;
+}
+
+section.dark .card .sci li a {
+  color: #e9e7e7;
+  background: #aaa;
+}
+
+section.dark .card .sci li a:hover {
+  background: white;
+}
+
+section.dark #donate {
+  color: #aaa;
+}
+
+section.dark #donate:hover {
+  color: white;
+}
+
+.toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #f4f4f4;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.toggle::before {
+  content: "\f186";
+  font-family: fontAwesome;
+  color: #7a7a7c;
+}
+
+section.dark .toggle:before {
+  content: "\f185";
+}
+
+#donate {
+  margin-top: 30px;
+  color: #7a7a7c;
+}
+
+#donate:hover {
+  color: #aaa;
+}
+/*# sourceMappingURL=main.css.map */
