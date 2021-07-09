@@ -4,6 +4,11 @@
 
 Initial release.
 
+**Updated**
+
+- profile picture
+- favicon
+
 **Added:**
 
 - Readme
