@@ -1,6 +1,6 @@
-# nuflakbrr.github.io
+# nuflakbrr.github.io/card-profile
 
-Card Profile.
+Card Profile Website.
 
 ## Authors
 
