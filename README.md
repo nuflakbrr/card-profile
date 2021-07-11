@@ -11,8 +11,12 @@ Naufal Akbar Nugroho
 
 ## Version History
 
+- 1.1.0
+
+  - [Updated Personal Branding](CHANGELOG.md)
+
 - 1.0.0
-  - [Updated favicon and profile picture](CHANGELOG.md)
+  - [Updated Favicon and Profile Picture](CHANGELOG.md)
   - [Initial Release](CHANGELOG.md)
 
 ## License
